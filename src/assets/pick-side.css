@@ -1,0 +1,34 @@
+.input-select{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.select-ex{
+    margin-right: 10rem;
+}
+
+input[type=radio]{
+    width: 24px;
+    height: 24px;
+}
+
+.select-ex, .select-zero{
+    opacity: 0.5;
+}
+
+.select-ex:hover, .select-zero:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.selected{
+    opacity: 1;
+}
+
+@media screen and (max-width: 576px) {
+    .select-ex{
+        margin-right: 1rem;
+    }
+  }
